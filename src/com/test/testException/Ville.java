@@ -10,10 +10,10 @@ public class Ville {
 	  //Variable privée qui comptera aussi les instances
 	  private static int nbreInstancesBis = 0;        
 	  
-	  protected String nomVille;
-	  protected String nomPays;
-	  protected int nbreHabitant;
-	  private char categorie;
+	  protected String nomVille = "";
+	  protected String nomPays = "";
+	  protected int nbreHabitant = 0;
+	  private char categorie = '?';
 
 	  public Ville(){
 	    //On incrémente nos variables à chaque appel aux constructeurs
@@ -37,7 +37,6 @@ public class Ville {
 		}
 		
 	}
-	
 	
 	public String getNomVille() {
 		return nomVille;
