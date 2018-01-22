@@ -13,7 +13,7 @@ public class Ville {
 	  protected String nomVille = "";
 	  protected String nomPays = "";
 	  protected int nbreHabitant = 0;
-	  private char categorie = '?';
+	  protected char categorie = '?';
 
 	  public Ville(){
 	    //On incrémente nos variables à chaque appel aux constructeurs
