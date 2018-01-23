@@ -33,7 +33,7 @@ public class Ville {
 			this.nomVille = pNom;
 			this.nomPays = pPays;
 			this.nbreHabitant = pNbre;
-			
+			setCategorie();
 		}
 		
 	}
@@ -81,7 +81,7 @@ public class Ville {
 	
 	//Retourne la description de la ville
 	 public String decrisToi(){
-	    return "\t"+this.nomVille+" est une ville de "+this.nomPays+ ", elle comporte : "+
+	    return this.nomVille+" est une ville de "+this.nomPays+ ", elle comporte : "+
 	    		this.nbreHabitant+" habitant(s) => elle est donc de catégorie : "+this.categorie;
 	 }
 	 

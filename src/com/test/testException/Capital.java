@@ -19,7 +19,7 @@ public class Capital extends Ville {
 		String str = "";
 		if(capitale) str = "\n" + this.nomVille + " est une capitale"; 
 		
-		return "\t"+this.nomVille+" est une ville de "+this.nomPays+ ", elle comporte : "+
+		return this.nomVille+" est une ville de "+this.nomPays+ ", elle comporte : "+
 	    		this.nbreHabitant+" habitant(s) => elle est donc de catégorie : "+ this.categorie + str;
 	}
 
